@@ -1,2 +1,2 @@
 # Weather-App
-Page to show weather based on location
+Web App to show weather details based on location input from user.
