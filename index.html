@@ -2,29 +2,44 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character encoding and viewport -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
+    <!-- Link to an external CSS stylesheet -->
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <!-- Header section containing a search input -->
     <header>
+        <!-- Search input with placeholder text -->
         <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city">
-     </header>
-     <main>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Section for displaying location information -->
         <section class="location">
+            <!-- Display the city name -->
             <div class="city">Manila, Las Pinas</div>
+            <!-- Display the date -->
             <div class="date">Monday 30 May</div>
         </section>
+
+        <!-- Section for displaying current weather information -->
         <div class="current">
+            <!-- Display the current temperature -->
             <div class="temp">15<span>°C</span></div>
+            <!-- Display the weather condition -->
             <div class="weather">Sunny</div>
+            <!-- Display the high and low temperatures -->
             <div class="hi-low">13°C / 16°C</div>
         </div>
     </main>
+
+    <!-- Link to an external JavaScript file -->
     <script src="script.js"></script>
 </body>
-
 </html>
